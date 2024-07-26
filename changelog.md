@@ -1,3 +1,64 @@
+ Changelog:
+- The `license-audit.md` file has been modified.
+- The license information for all fonts has been updated to include the appropriate license and/or release note information in both the original unpatched version folders and the patched version folders.
+- The machine-readable license info for fonts is now included in the `fonts.json` file.
+- The license information for each font has been updated to use the SPDX license identifier.
+- The following fonts have had their license information updated:  
+- 0xProto: OFL-1.1-no-RFN  
+- IBM 3270: BSD-3-Clause  
+- Anonymous Pro: OFL-1.1-RFN  
+- Arimo: Apache-2.0  
+- Aurulent Sans Mono: OFL-1.1-no-RFN  
+- BigBlue Terminal: CC-BY-SA-4.0  
+- Bitstream Vera Sans Mono: Bitstream-Vera  
+- Cascadia Code: OFL-1.1-RFN  
+- Cascadia Mono: OFL-1.1-RFN  
+- Code New Roman: OFL-1.1-no-RFN  
+- Comic Shanns Mono: MIT  
+- Commit Mono: OFL-1.1-no-RFN  
+- Cousine: Apache-2.0  
+- D2Coding: OFL-1.1-no-RFN  
+- DaddyTimeMono: OFL-1.1-no-RFN  
+- DejaVu Sans Mono: Bitstream-Vera  
+- Droid Sans Mono: Apache-2.0  
+- Envy Code R: OFL-1.1-RFN  
+- Fantasque Sans Mono: OFL-1.1-no-RFN  
+- Fira Code: OFL-1.1-no-RFN  
+- Fira: OFL-1.1-no-RFN  
+- Geist Mono: OFL-1.1-no-RFN  
+- Go Mono: BSD-3-Clause-Clear  
+- Gohu: WTFPL  
+- Hack: Bitstream-Vera AND MIT  
+- Hasklig: OFL-1.1-RFN  
+- Heavy Data: LicenseRef-VicFieger  
+- Hermit: OFL-1.1-RFN  
+- iA Writer: OFL-1.1-RFN  
+- Inconsolata: OFL-1.1-no-RFN  
+- InconsolataGo: OFL-1.1-no-RFN  
+- Inconsolata LGC: OFL-1.1-no-RFN  
+- Intel One Mono: OFL-1.1-RFN  
+- Iosevka: OFL-1.1-no-RFN  
+- Iosevka Term: OFL-1.1-no-RFN  
+- Iosevka Term Slab: OFL-1.1-no-RFN  
+- JetBrains Mono: OFL-1.1-no-RFN  
+- Lekton: OFL-1.1-no-RFN  
+- Liberation Mono: OFL-1.1-RFN  
+- Lilex: OFL-1.1-no-RFN  
+- MartianMono: OFL-1.1-no-RFN  
+- Meslo LG: Apache-2.0  
+- Monaspace: OFL-1.1-RFN  
+- Monofur: LicenseRef-Monofur  
+- Monoid: MIT OR OFL-1.1-no-RFN  
+- Mononoki: OFL-1.1-RFN  
+- MPlus: OFL-1.1-no-RFN  
+- Noto: OFL-1.1-no-RFN  
+- OpenDyslexic: Bitstream-Vera  
+- Overpass: OFL-1.1-no-RFN or LGPL-2.1-only  
+- ProFont: MIT  
+- ProggyCleanTT: MIT  
+- Recursive Mono: OFL-1.1-no-RFN  
+- Roboto Mono: Apache-2.0  
+- Share Tech Mono: OFL-1.1-RFN
 CHANGELOG
 ================================================================================
 This project is using [Semantic Versioning 2.0.0](http://semver.org/)
