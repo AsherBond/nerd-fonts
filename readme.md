@@ -40,7 +40,7 @@ The following flow diagram shows the current glyph sets included:
   * [**2 - Homebrew Fonts (macOS (OS X))**](#option-2-homebrew-fonts)
   * [**3 - Chocolatey or Scoop (Windows)**](#option-3-unofficial-chocolatey-or-scoop-repositories)
   * [**4 - Arch Linux Repository (Extra, AUR)**](#option-4-arch-extra-repository)
-  * [**5 - PowerShell Web Installer (Multi-Platform)**](#option-5-powershell-web-installer)
+  * [**5 - PowerShell Installer (Multi-Platform)**](#option-5-powershell-installer)
   * [**6 - Ad Hoc Curl Download**](#option-6-ad-hoc-curl-download)
   * [**7 - Install Script**](#option-7-install-script)
   * [**8 - Use Fontfallback**](#option-8-font-fallback)
@@ -81,7 +81,7 @@ _If you..._
   * `Option 2.` are on **macOS** and want to use **Homebrew** see [Homebrew Fonts](#option-2-homebrew-fonts)
   * `Option 3.` are on **Windows** and want to use **Chocolatey** or **Scoop** see [Unofficial Chocolatey or Scoop Repositories](#option-3-unofficial-chocolatey-or-scoop-repositories)
   * `Option 4.` are on **Arch Linux** and want to use **Extra packages** see [Arch Extra Repositories](#option-4-arch-extra-repository)
-  * `Option 5.` are using **PowerShell** and want an **interactive setup** or **use in scripts** see the [PowerShell Web Installer](#option-5-powershell-web-installer)
+  * `Option 5.` are using **PowerShell** and want an **interactive setup** or **use in scripts** see the [PowerShell Installer](#option-5-powershell-installer)
   * `Option 6.` want to use the **`curl` command** or use in **scripts** see [Ad Hoc Curl Download](#option-6-ad-hoc-curl-download)
   * `Option 7.` want to **automate** installing or use in **scripts** see the [Install Script](#option-7-install-script)
   * `Option 8.` want to install only one font for all fonts see [Font Fallback](#option-8-font-fallback)
@@ -116,17 +116,18 @@ A preview of all fonts can be found [here](https://www.nerdfonts.com/font-downlo
 
 | Font Name                                         | Original Font Name and Repository      | ver        |\*RFN |
 |:--------------------------------------------------|:---------------------------------------|:-----------|:-----|
-| [0xProto Nerd Font][p-0xProto]                    | [0xProto][f-0xProto]                   | 2.201      | NO   |
+| [0xProto Nerd Font][p-0xProto]                    | [0xProto][f-0xProto]                   | 2.300      | NO   |
 | [3270 Nerd Font][p-3270]                          | [3270][f-3270]                         | 3.0.1      | NO   |
 | [Agave Nerd Font][p-agave]                        | [Agave][f-agave]                       | 37         | NO   |
 | [AnonymicePro Nerd Font][p-anonymous-pro]         | [Anonymous Pro][f-a-pro]               | 1.002      | YES  |
 | [Arimo Nerd Font][p-arimo]                        | [Arimo][f-arimo]                       | 1.33       | NO   |
+| [AtynsonMono Nerd Font][p-atkinson-mono]          | [Atkinson Hyperlegible Mono][f-atkinson]| 2.001     | YES  |
 | [AurulentSansMono Nerd Font][p-aurulent]          | Aurulent Sans Mono (Stephen G. Hartke) |            | NO   |
 | [BigBlueTerminal Nerd Font][p-bigblueterm]        | BigBlueTerminal (VileR)                |            | NO   |
 | [BitstromWera Nerd Font][p-bitstream]             | Vera Sans Mono (Bitstream Inc)         | 1.1        | YES  |
 | [BlexMono Nerd Font][p-blex]                      | [IBM Plex Mono][f-ibm-plex]            | 2.004      | YES  |
-| [CaskaydiaCove Nerd Font][p-cascadia]             | [Cascadia Code][f-cascadia]            | 2111.01    | YES  |
-| [CaskaydiaMono Nerd Font][p-cascadia-mono]        | [Cascadia Mono][f-cascadia]            | 2111.01    | YES  |
+| [CaskaydiaCove Nerd Font][p-cascadia]             | [Cascadia Code][f-cascadia]            | 2407.24    | YES  |
+| [CaskaydiaMono Nerd Font][p-cascadia-mono]        | [Cascadia Mono][f-cascadia]            | 2407.24    | YES  |
 | [CodeNewRoman Nerd Font][p-code-nr]               | Code New Roman (Sam Radian)            | 2.0        | NO   |
 | [ComicShannsMono Nerd Font][p-comic]              | [Comic Shanns Mono][f-comic]           | 1.3.1      | NO   |
 | [CommitMono Nerd Font][p-commit]                  | [Commit Mono][f-commit]                | 1.143      | NO   |
@@ -140,7 +141,7 @@ A preview of all fonts can be found [here](https://www.nerdfonts.com/font-downlo
 | [FantasqueSansMono Nerd Font][p-fantasque]        | [Fantasque Sans Mono][f-fant]          | 1.8.0      | NO   |
 | [FiraCode Nerd Font][p-fira-code]                 | [Fira Code][f-fira-code]               | 6.2        | NO   |
 | [FiraMono Nerd Font][p-fira-mono]                 | [Fira Mono][f-fira-mono]               | 3.206      | NO   |
-| [GeistMono Nerd Font][p-geist-mono]               | [Geist Mono][f-geist-mono]             | 1.200      | NO   |
+| [GeistMono Nerd Font][p-geist-mono]               | [Geist Mono][f-geist-mono]             | 1.401      | NO   |
 | [GoMono Nerd Font][p-go-mono]                     | [Go-Mono][f-go-mono]                   | 2.010      | NO   |
 | [Gohu Nerd Font][p-gohu]                          | [Gohu TTF][f-gohu2], [Gohu][f-gohu]    | 2.0        | NO   |
 | [Hack Nerd Font][p-hack]                          | [Hack][f-hack]                         | 3.003      | NO   |
@@ -150,22 +151,22 @@ A preview of all fonts can be found [here](https://www.nerdfonts.com/font-downlo
 | [iM-Writing Nerd Font][p-im-writing]              | [iA-Writer][f-ia-writer]               | Dec 2018   | YES  |
 | [Inconsolata Nerd Font][p-inconsolata]            | [Inconsolata][f-inconsolata]           | 3.000      | NO   |
 | [InconsolataGo Nerd Font][p-inconsolata-go]       | [InconsolataGo][f-inconsolatago]       | 1.013      | NO   |
-| [Inconsolata LGC Nerd Font][p-inconsolata-lgc]    | [Inconsolata LGC][f-inconsolatalgc]    | 1.5.2      | NO   |
+| [Inconsolata LGC Nerd Font][p-inconsolata-lgc]    | [Inconsolata LGC][f-inconsolatalgc]    | 1.13       | NO   |
 | [IntoneMono Nerd Font][p-intel-one-mono]          | [Intel One Mono][f-intel-one-mono]     | 1.4.0      | YES  |
-| [Iosevka Nerd Font][p-iosevka]                    | [Iosevka][f-iosevka]                   | 29.0.4     | NO   |
-| [IosevkaTerm Nerd Font][p-iosevka-term]           | [Iosevka Term][f-iosevka]              | 29.0.4     | NO   |
-| [IosevkaTermSlab Nerd Font][p-iosevka-term-slab]  | [Iosevka Term Slab][f-iosevka]         | 29.0.4     | NO   |
+| [Iosevka Nerd Font][p-iosevka]                    | [Iosevka][f-iosevka]                   | 33.2.1     | NO   |
+| [IosevkaTerm Nerd Font][p-iosevka-term]           | [Iosevka Term][f-iosevka]              | 33.2.1     | NO   |
+| [IosevkaTermSlab Nerd Font][p-iosevka-term-slab]  | [Iosevka Term Slab][f-iosevka]         | 33.2.1     | NO   |
 | [JetBrainsMono Nerd Font][p-jetbrains-mono]       | [JetBrains Mono][f-jetbrains-mono]     | 2.304      | NO   |
 | [Lekton Nerd Font][p-lekton]                      | [Lekton][f-lekton]                     | 34         | NO   |
 | [Literation Nerd Font][p-liberation]              | [Liberation][f-liberation]             | 2.1.5      | YES  |
-| [Lilex Nerd Font][p-lilex]                        | [Lilex][f-lilex]                       | 2.400      | NO   |
-| [MartianMono Nerd Font][p-martian]                | [MartianMono][f-martian]               | 1.0.0      | NO   |
+| [Lilex Nerd Font][p-lilex]                        | [Lilex][f-lilex]                       | 2.600      | NO   |
+| [MartianMono Nerd Font][p-martian]                | [MartianMono][f-martian]               | 1.1.0      | NO   |
 | [Meslo Nerd Font][p-meslo]                        | [Meslo][f-meslo]                       | 1.21       | NO   |
-| [Monaspice Nerd Font][p-monaspace]                | [Monaspace][f-monaspace]               | 1.101      | YES  |
+| [Monaspice Nerd Font][p-monaspace]                | [Monaspace][f-monaspace]               | 1.200      | YES  |
 | [Monofur Nerd Font][p-monofur]                    | Monofur (Tobias B Koehler)             | 1.0        | NO   |
 | [Monoid Nerd Font][p-monoid]                      | [Monoid][f-monoid]                     | 0.61       | NO   |
 | [Mononoki Nerd Font][p-mononoki]                  | [Mononoki][f-mononoki]                 | 1.6        | YES  |
-| [M+ Nerd Font][p-mplus]                           | [MPlus Fonts][f-mplus]                 | 2023/09    | NO   |
+| [M+ Nerd Font][p-mplus]                           | [MPlus Fonts][f-mplus]                 | 1.007      | NO   |
 | [Noto Nerd Font][p-noto]                          | [Noto][f-noto]                         | div        | NO   |
 | [OpenDyslexic Nerd Font][p-opendyslexic]          | [OpenDyslexic][f-opendyslexic]         | 2.001      | NO   |
 | [Overpass Nerd Font][p-overpass]                  | [Overpass][f-overpass]                 | 3.0.5      | NO   |
@@ -180,7 +181,7 @@ A preview of all fonts can be found [here](https://www.nerdfonts.com/font-downlo
 | [Tinos Nerd Font][p-tinos]                        | [Tinos][f-tinos]                       | 1.23       | NO   |
 | [Ubuntu Nerd Font][p-ubuntu]                      | [Ubuntu Font][f-ubuntu]                | 0.83       | NO   |
 | [UbuntuMono Nerd Font][p-ubuntu-mono]             | [Ubuntu Font][f-ubuntu]                | 0.80       | NO   |
-| [UbuntuSans Nerd Font][p-ubuntu-sans]             | [Ubuntu Sans][f-ubuntu-sans]           | 1.004      | NO   |
+| [UbuntuSans Nerd Font][p-ubuntu-sans]             | [Ubuntu Sans][f-ubuntu-sans]           | 1.006      | NO   |
 | [VictorMono Nerd Font][p-victor]                  | [Victor Mono][f-victor]                | 1.5.6      | NO   |
 | [ZedMono Nerd Font][p-zed-mono]                   | [Zed Mono][f-zed-mono]                 | 1.2.0      | NO   |
 
@@ -255,16 +256,33 @@ scoop install Hack-NF
 Most fonts are available via [Arch Extra packages](https://archlinux.org/groups/any/nerd-fonts/).
 Some special packages are [in AUR](https://aur.archlinux.org/packages?K=nerd-fonts-&outdated=off).
 
-### `Option 5: PowerShell Web Installer`
+### `Option 5: PowerShell Installer`
 
 > Best option for **interactive setup guidance** or **automating** installations through **PowerShell scripts**.
 
-_Note_:
-  - **Requires PowerShell 7+** to be installed on Windows, macOS, or Linux.
-  - **Windows PowerShell 5.1** is also supported.
-  - This is a 3rd-party community tool. More information can be found on its GitHub repository [here](https://github.com/jpawlowski/nerd-fonts-installer-PS), including advanced installation options.
+#### PSModule NerdFonts
 
-#### Run the Interactive Installer
+This is a 3rd-party community tool. More information can be found on its GitHub repository [here](https://github.com/PSModule/NerdFonts).
+
+To install the module:
+
+```powershell
+Install-PSResource -Name NerdFonts
+Import-Module -Name NerdFonts
+```
+
+To install one font:
+
+```powershell
+Install-NerdFont -Name 'FiraCode' # Tab completion works on name
+```
+
+#### Powershell Web Installer
+
+This is a 3rd-party community tool. More information can be found on its GitHub repository [here](https://github.com/jpawlowski/nerd-fonts-installer-PS).
+
+- **Requires PowerShell 7+** to be installed on Windows, macOS, or Linux.
+- **Windows PowerShell 5.1** is also supported.
 
 To run the interactive installer, use the following command:
 
@@ -272,24 +290,10 @@ To run the interactive installer, use the following command:
 & ([scriptblock]::Create((iwr 'https://to.loredo.me/Install-NerdFont.ps1')))
 ```
 
-#### Install Fonts Directly
-
 To install specific fonts directly, use the following command:
 
 ```powershell
 & ([scriptblock]::Create((iwr 'https://to.loredo.me/Install-NerdFont.ps1'))) -Name hack, heavy-data
-```
-
-To install fonts without a confirmation prompt, use:
-
-```powershell
-& ([scriptblock]::Create((iwr 'https://to.loredo.me/Install-NerdFont.ps1'))) -Confirm:$false -Name hack, heavy-data
-```
-
-To get a list of possible font names, use:
-
-```powershell
-& ([scriptblock]::Create((iwr 'https://to.loredo.me/Install-NerdFont.ps1'))) -List All
 ```
 
 ### `Option 6: Ad Hoc Curl Download`
@@ -722,6 +726,7 @@ Font repos
 [f-agave]:https://github.com/agarick/agave
 [f-a-pro]:https://www.marksimonson.com/fonts/view/anonymous-pro
 [f-arimo]:https://github.com/googlefonts/Arimo
+[f-atkinson]:https://www.brailleinstitute.org/freefont/
 [f-cascadia]:https://github.com/microsoft/cascadia-code
 [f-cousine]:https://fonts.google.com/specimen/Cousine
 [f-comic]:https://github.com/jesusmgg/comic-shanns-mono
@@ -783,6 +788,7 @@ Patched Font internal links
 [p-agave]:patched-fonts/Agave
 [p-anonymous-pro]:patched-fonts/AnonymousPro
 [p-arimo]:patched-fonts/Arimo
+[p-atkinson-mono]:patched-fonts/AtkinsonHyperlegibleMono
 [p-aurulent]:patched-fonts/AurulentSansMono
 [p-bigblueterm]:patched-fonts/BigBlueTerminal
 [p-bitstream]:patched-fonts/BitstreamVeraSansMono
