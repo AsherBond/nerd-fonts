@@ -1878,6 +1878,42 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "duytrung",
+      "name": "Trung Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2046672?v=4",
+      "profile": "https://github.com/duytrung",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "badlydrawnface",
+      "name": "David Marrero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53501005?v=4",
+      "profile": "https://github.com/badlydrawnface",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sliva0",
+      "name": "sliva0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48382801?v=4",
+      "profile": "http://sliva0.mk",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Pairadux",
+      "name": "Austin Gause",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43703308?v=4",
+      "profile": "http://www.austingause.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github",
