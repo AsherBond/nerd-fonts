@@ -1932,6 +1932,24 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "oktoling",
+      "name": "an octoling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161823820?v=4",
+      "profile": "https://github.com/oktoling",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "mietzen",
+      "name": "Nils",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31704359?v=4",
+      "profile": "https://github.com/mietzen",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "repoType": "github",
